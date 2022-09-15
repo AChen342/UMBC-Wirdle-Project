@@ -1,0 +1,81 @@
+Welcome to UMBC Wordle
+Your file was imported!
+2315 words imported.
+Ok. I am thinking of a word with five letters.
+What word would you like to guess?
+raise
+raise
+_&_&!
+-----
+-----
+-----
+-----
+-----
+What word would you like to guess?
+stale
+raise
+_&_&!
+stale
+!_!_!
+-----
+-----
+-----
+-----
+What word would you like to guess?
+stabe
+That word is not in the word list
+What word would you like to guess?
+snake
+raise
+_&_&!
+stale
+!_!_!
+snake
+!_!_!
+-----
+-----
+-----
+What word would you like to guess?
+stave
+raise
+_&_&!
+stale
+!_!_!
+snake
+!_!_!
+stave
+!_!_!
+-----
+-----
+What word would you like to guess?
+spade
+raise
+_&_&!
+stale
+!_!_!
+snake
+!_!_!
+stave
+!_!_!
+spade
+!!!_!
+-----
+What word would you like to guess?
+space
+raise
+_&_&!
+stale
+!_!_!
+snake
+!_!_!
+stave
+!_!_!
+spade
+!!!_!
+space
+!!!!!
+Congrats you won!
+The correct word was: space
+Another game? y/n
+n
+Thank you!
