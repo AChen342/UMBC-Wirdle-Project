@@ -3,7 +3,7 @@ First project written in the Computer Science I course (CMSC202) at the Universi
 This project was written using C++ by Andrew Chen and was submitted on March 1st.
 
 # What is Wirdle?
-The Wirdle Project is based on the well-known word guessing game, Wirdle. The original game
+The Wirdle Project is based on the well-known word guessing game, Wordle. The original game
 was created by a Welsh software engineer, Josh Wardle. The game works by allowing players
 a limited amount of guesses, usually six guesses. Players win the game by guessing the word
 correctly before they run out of guesses. They lose when they don't guess the word within the
@@ -160,4 +160,4 @@ In progress
 # UML Chart
 In progress
 # Notes
-If you want a more thorough demonstration of this game, please view [wirdleSample.txt]()
+If you want a more thorough demonstration of this game, please view [wirdleSample.txt](https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/wirdleSample.txt)
