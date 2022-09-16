@@ -106,7 +106,7 @@ int main(){
         string results = "";
         char playAgain = 'x';
 
-        cout << "Ok. I am thinking of a word with five letter" << endl;
+        cout << "Ok. I am thinking of a word with five letters" << endl;
         
         for(int i = 0; i < 6; i++){
             guesses[i][0] = "";
