@@ -274,34 +274,25 @@ string checker(string userGuess, string wordle){
                     tells user which letters
                     they got correct and incorrect
     */
-    string results = "_____";
-    bool isBlank = false;
-    
-    if(userGuess == wordle){
-        results = "!!!!!";
-    }else{
-        for(int i = 0; i < 5; i++){
-            for(int j = 0; j < 5; j++){
+   string results = "";
+   int wordleLength = wordle.length();
+   int userGuessLength = userGuess.length();
 
-                //Checks if spot is a '_'
-                if((results[j] != RIGHT_CHAR) && (results[j] != RIGHT_SPOT)){
-                    isBlank = true;
-                }
+    // First checks if the letters are all in the correct
+   for(int i = 0; i < userGuessLength; i++){
+        if(wordle[i] == userGuess[i]){
+            results += "!";
+        }else{
+            results += "_";
+        }
+    }
 
-                if(wordle[i] == userGuess[j]){
-                    if(i == j){
-                        //If letter is in correct position
-                        results[j] = RIGHT_SPOT;
-
-                    }else if((i != j) && isBlank){
-                        /*If letter is not in correct position,
-                        but exists in the chosen word*/
-                        results[j] = RIGHT_CHAR;
-                        isBlank = false;
-                        j = 5;
-
-                    }
-                }
+    // Checks letters to see if they exist
+    for(int j = 0; j < wordleLength; j++){
+        for(int k = 0; k < userGuessLength; k++){
+            if((userGuess[k] == wordle[j]) && (results[k] == '_')){
+                results[k] = '&';
+                k = wordleLength;
             }
         }
     }
