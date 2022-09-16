@@ -122,3 +122,42 @@ What word would you like to guess?
 _
 ```
 ## Winning Screen
+This message should appear when you win:
+```
+Congrats you won!
+The correct word was: shule
+Please wait 24 hou- Jk.
+Another game? y/n
+```
+
+## Losing Screen
+If you lose, this message should appear:
+```
+The correct word was: speil
+Please wait 24 hou- Jk.
+Another game? y/n
+```
+
+## Play again
+After the round ends, the game will ask if you would like to play another round. Entering 
+'y' will start a new round, while entering 'n' will close the game.
+
+## Customization
+The default word list text file (named proj1_data.txt) contains 12971 words that
+the game will choose from. The player may edit the word list file to add/ remove
+words from the text file. 
+
+IMPORTANT: Underneath the last word in text file, make 
+sure to leave an empty line. So for example:
+```
+.....   .....
+12970   zymes
+12971   zymic
+12972   (Nothing should be printed on this line)
+```
+# Flowchart
+In progress
+# UML Chart
+In progress
+# Notes
+If you want a more thorough demonstration of this game, please view [proj1_sample.txt](https://github.com/AChen342/UMBC-Wordle-Project/blob/master/proj1_sample.txt)
