@@ -277,7 +277,6 @@ string checker(string userGuess, string wordle){
    string results = "";
    int wordleLength = wordle.length();
    int userGuessLength = userGuess.length();
-
     // First checks if the letters are all in the correct
    for(int i = 0; i < userGuessLength; i++){
         if(wordle[i] == userGuess[i]){
