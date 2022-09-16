@@ -1,5 +1,4 @@
 # UMBC Wirdle Project
-<img src=https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/WirdleLogo.png>
 First project written in the Computer Science I course (CMSC202) at the University of Maryland, Baltimore County (UMBC). 
 This project was written using C++ by Andrew Chen and was submitted on March 1st.
 
