@@ -1,4 +1,4 @@
-Welcome to UMBC Wordle
+Welcome to UMBC Wirdle
 Your file was imported!
 2315 words imported.
 Ok. I am thinking of a word with five letters.

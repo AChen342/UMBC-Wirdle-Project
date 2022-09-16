@@ -1,12 +1,12 @@
 /*
 File name:       proj1.cpp
-Assignment name: Project 1 - Wordle
+Assignment name: Project 1 - Wirdle
 Author:          Andrew Chen
 Date:            2/27/2022
 Section:         50
 Email:           achen18@umbc.edu
 Description:     This program simulates the word guessing game
-                    Wordle.
+                    wirdle.
 
 */
 
@@ -71,7 +71,7 @@ PostCondition: Returns results, which
                 tells user which letters
                 they got correct and incorrect
 */
-string checker(string userGuess, string wordle);
+string checker(string userGuess, string wirdle);
 
 
 /*
@@ -93,7 +93,7 @@ int main(){
 
     //Prompt
     intoWordList(wordList);
-    cout << "Welcome to UMBC Wordle" << endl;
+    cout << "Welcome to UMBC wirdle" << endl;
     cout << "Your file was imported!" << endl;
     cout << TOTAL_WORDS << " words imported." << endl;
 
@@ -102,7 +102,7 @@ int main(){
         int numOfGuesses = 0;
         bool endRound = false;
         //Word that user needs to guess.
-        string wordle = generateWord(wordList);
+        string wirdle = generateWord(wordList);
         string results = "";
         char playAgain = 'x';
 
@@ -132,7 +132,7 @@ int main(){
                 }
 
                 cout << "You guessed: " << userGuess << endl;
-                results = checker(userGuess, wordle);
+                results = checker(userGuess, wirdle);
                 
                 guesses[numOfGuesses][0] = userGuess;
                 guesses[numOfGuesses][1] = results;
@@ -150,7 +150,7 @@ int main(){
         }while((numOfGuesses < 6) && !(endRound));
 
         //Round End
-        cout << "The correct word was: " << wordle << endl;
+        cout << "The correct word was: " << wirdle << endl;
         cout << "Please wait 24 hou- Jk." << endl;
         
         while((playAgain != 'y') && (playAgain != 'n')){
@@ -163,7 +163,7 @@ int main(){
         }
         cout << endl;
     }
-    //Stops playing wordle.
+    //Stops playing wirdle.
     cout << "Thanks for playing!" << endl;
     cout << endl;
 
@@ -180,7 +180,7 @@ int countWords(){
                   within the file.
     */
 
-    ifstream readData("proj1_data.txt");
+    ifstream readData("wirdleWordList.txt");
     int count = 0;
     string word = "";
 
@@ -203,7 +203,7 @@ void intoWordList(string wordList[]){
                    into an array called wordList
     */
 
-    ifstream readData("proj1_data.txt");
+    ifstream readData("wirdleWordList.txt");
     int i = 0;
     string word = "";
 
@@ -266,7 +266,7 @@ string generateWord(string wordList[]){
 }
 
 
-string checker(string userGuess, string wordle){
+string checker(string userGuess, string wirdle){
     /*
     Name: checker
     PreCondition: The user has made a guess
@@ -275,11 +275,11 @@ string checker(string userGuess, string wordle){
                     they got correct and incorrect
     */
    string results = "";
-   int wordleLength = wordle.length();
+   int wirdleLength = wirdle.length();
    int userGuessLength = userGuess.length();
     // First checks if the letters are all in the correct
    for(int i = 0; i < userGuessLength; i++){
-        if(wordle[i] == userGuess[i]){
+        if(wirdle[i] == userGuess[i]){
             results += "!";
         }else{
             results += "_";
@@ -287,11 +287,11 @@ string checker(string userGuess, string wordle){
     }
 
     // Checks letters to see if they exist
-    for(int j = 0; j < wordleLength; j++){
+    for(int j = 0; j < wirdleLength; j++){
         for(int k = 0; k < userGuessLength; k++){
-            if((userGuess[k] == wordle[j]) && (results[k] == '_')){
+            if((userGuess[k] == wirdle[j]) && (results[k] == '_')){
                 results[k] = '&';
-                k = wordleLength;
+                k = wirdleLength;
             }
         }
     }
