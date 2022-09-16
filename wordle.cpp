@@ -86,7 +86,7 @@ bool checkWin(string results);
 
 
 int main(){
-    string wordList[9999];
+    string wordList[TOTAL_WORDS];
     string guesses[6][2];
     string userGuess = "";
     bool play = true;
