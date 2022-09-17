@@ -157,7 +157,7 @@ sure to leave an empty line. So for example:
 12972   (Nothing should be printed on this line)
 ```
 # Flowchart
-In progress
+<img src=https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/UMBC-WIRDLE-Flowchart.png>
 # UML Chart
 In progress
 # Notes
