@@ -1,7 +1,16 @@
 # UMBC Wirdle Project
 <img src=https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/WirdleLogo.png>
-First project written in the Computer Science I course (CMSC202) at the University of Maryland, Baltimore County (UMBC). 
-This project was written using C++ by Andrew Chen and was submitted on March 1st.
+ This project was written using C++ by Andrew Chen at the University of Maryland, Baltimore County.
+
+# Table of Contents
+[1. What is Wirdle?](#umbc-wirdle-project)
+
+[2. How to run](#how-to-run) 
+
+[3. How to Play](#how-to-play) 
+
+[4. Flowchart](#flowchart) 
+
 
 # What is Wirdle?
 The Wirdle Project is based on the well-known word guessing game, Wordle. The original game
@@ -161,4 +170,4 @@ sure to leave an empty line. So for example:
 # UML Chart
 In progress
 # Notes
-If you want a more thorough demonstration of this game, please view [wirdleSample.txt](https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/wirdleSample.txt)
+Here is a demonstration of the game, please view [wirdleSample.txt](https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/wirdleSample.txt)
