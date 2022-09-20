@@ -1,5 +1,5 @@
 /*
-File name:       proj1.cpp
+File name:       wirdle.cpp
 Assignment name: Project 1 - Wirdle
 Author:          Andrew Chen
 Date:            2/27/2022

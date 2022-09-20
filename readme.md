@@ -8,8 +8,18 @@
 [2. How to run](#how-to-run) 
 
 [3. How to Play](#how-to-play) 
+- [Rules](#here-are-some-rules)
+- [Mechanics](#mechanics)
+- [Winning Screen](#winning-screen)
+- [Losing Screen](#losing-screen)
+- [Play Again](#play-again)
+- [Customization](#customization)
 
 [4. Flowchart](#flowchart) 
+
+[5. UML Chart](#uml-chart) 
+
+[6. Notes](#notes) 
 
 
 # What is Wirdle?
@@ -167,7 +177,6 @@ sure to leave an empty line. So for example:
 ```
 # Flowchart
 <img src=https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/UMBC-WIRDLE-Flowchart.png>
-# UML Chart
-In progress
+
 # Notes
 Here is a demonstration of the game, please view [wirdleSample.txt](https://github.com/AChen342/UMBC-Wirdle-Project/blob/master/wirdleSample.txt)
